@@ -2,16 +2,21 @@
 class objectTestCase
 {
 	int intValue = 0;
+	
+	//Constructor method, takes a integer
+	//	integer taken is then stored in intValue
 	objectTestCase(int number)
 	{
 		this.intValue = number;
 	}
 	
+	//Adds one to the currently stored integer value
 	public void addOne()
 	{
 		this.intValue++;
 	}
 	
+	//returns the saved integer value
 	public int getValue()
 	{
 		return this.intValue;
