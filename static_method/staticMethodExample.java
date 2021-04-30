@@ -30,10 +30,10 @@ public class whatIsStatic
 	{
 		basicClass classA = new basicClass(10);
 		
-		basicClass.thisIsAStaticMethod(); //this will not cause an error, as this method is static.
+		basicClass.thisIsAStaicMethod(); //this will not cause an error, as this method is static.
 		basicClass.toString(); //this will cause an error, as toString is a non-static method and is getting referenced by the class.
     
-    classA.toString(); //this will not cause an error as an object is referencing a non-static method.
+  		classA.toString(); //this will not cause an error as an object is referencing a non-static method.
 	}
 
 }
