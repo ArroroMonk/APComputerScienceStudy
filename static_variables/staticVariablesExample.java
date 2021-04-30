@@ -25,9 +25,9 @@ public class whatIsStatic
 		basicClass classC = new basicClass(30); //this object changes the value for all the other objects
                                             //  as the static variable applies to the entire class,
                                             //  rather then to a specific object
-		System.out.println( "Class A: "+classA.toString());
-		System.out.println( "Class B: "+classB.toString());
-		System.out.println( "Class C: "+classC.toString());
+		System.out.println("Class A: " + classA.toString());
+		System.out.println("Class B: " + classB.toString());
+		System.out.println("Class C: " + classC.toString());
 	}
 
 }
